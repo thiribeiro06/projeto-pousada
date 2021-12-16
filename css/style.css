@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(fonts/SourceSansPro-Regular.ttf);
+}
+*{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.topo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 720px;
+    background: url(../img/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo-menu{
+    margin-left: 20px;
+}
+.fundo-menu{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+}
+.menu{
+    display: flex;
+    max-width: 1024px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+span{   
+    color: #7694bd ;
+}
+.logo-menu a{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #4d4f51;
+}
+.links-menu{
+    margin-right: 20px;
+}    
+.links-menu a{
+    font-size: 25px;
+    font-weight: 200;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #4d4f51;
+}
+.links-menu a:hover{
+    background-color: #7694bd;
+    color: white;
+    padding: 10px 0; 
+}
+.info-fundo{
+    display: flex;
+    height: 600px;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.info-fundo{
+    max-width: 1024px;
+    width: 1024px;
+}
+.info-angra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 600px;
+    background-color: #1da38bc2;
+    color: white;
+    font-size: 30px;
+    border: white solid .2px;
+    border-radius: 4px;
+}
+.info-angra p{
+    margin-top: 55px;
+}
+.meio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+#rota, #sobre, .bemvindo, .opcoes-quartos{
+    max-width: 100%;
+    width: 1024px;
+}
+.bemvindo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #4d4f51;
+    text-align: center;
+}
+.titulo-p{
+    font-size: 30px;
+}
+.desc-p{
+    width: 500px;
+    margin-top: 25px;
+}
+.desc-p2{
+    margin-top: 15px;
+}
+.opcoes-quartos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.info-quarto img{
+    width: 320px;
+}
+.info-quarto a{
+    text-decoration: none;
+    color: #4d4f51;
+    text-align: center;
+    font-size: 20px;
+}
+.info-quarto p{
+    margin-top: 20px;
+}
+.desc-quarto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+}
+.desc-quarto::after{
+    content: "";
+    background-color: #49997c;
+    height: 1.8px;
+    width: 100%;
+    margin-top: 10px;
+}
+#rota{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-rota{
+    text-align: center;
+    color: #4d4f51;
+}
+.info-rota p{
+    margin-top: 25px;
+}
+.iframe-rota{
+    margin-top: 50px;
+}
+.conteudo-sobre{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.titulo-sobre{
+    text-align: center;
+    color: #4d4f51;
+    margin-top: 100px;
+}
+.titulo-sobre p{
+    margin-top: 25px;
+}
+.info-sobre{
+    color: #4d4f51;
+    display: flex;
+    margin: 40px;
+    width: calc((100% / 2) - 80px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-sobre img{
+    width: 100px;
+    height: 120px;
+    margin-left: 5px;
+}
+.sobretit-p{
+    font-weight: bold;
+}
+.sobreinf-p{
+    margin-top: 20px;
+}
+.rodape{
+    background-color: #49997c;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.info-rodape, .copyright{
+    max-width: 100%;
+    width: 1024px;
+}
+.info-rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.conteudo-rodape{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+.conteudo-rodape p{
+    margin-left: 18px;
+}
+.contato, .conteudo-rodape{
+    width: calc((100% / 4) - 10px);
+}
+.contato{
+    font-size: 23px;
+    font-weight: bold;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.copyright:before{
+    content: "";
+    background-color: #439074;
+    height: 3.5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
